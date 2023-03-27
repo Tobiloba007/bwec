@@ -1,0 +1,290 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.title-1{
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFCF24;
+    line-height: 55px;
+}
+.title-2{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 700;
+    color: #616161;
+}
+.middle{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.content{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 62px;
+    color: #939090;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.img{
+    width: 145px;
+    margin: 0px 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 20px;
+}
+.name{
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 700;
+}
+.position{
+    font-family: inter;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .title-1{
+        font-family: Merriweather;
+        font-size: 25px;
+        font-weight: 500;
+        color: #FFCF24;
+        line-height: 40px;
+    }
+    .title-2{
+        font-family: Merriweather;
+        font-size: 35px;
+        font-weight: 700;
+        color: #616161;
+    }
+    .middle{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .content{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 50px;
+        color: #939090;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .img{
+        width: 120px;
+        margin: 0px 18px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0px 18px;
+    }
+    .name{
+        font-family: inter;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .position{
+        font-family: inter;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .title-1{
+        font-family: Merriweather;
+        font-size: 23px;
+        font-weight: 400;
+        color: #FFCF24;
+        line-height: 35px;
+    }
+    .title-2{
+        font-family: Merriweather;
+        font-size: 30px;
+        font-weight: 600;
+        color: #616161;
+    }
+    .middle{
+        width: 85vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .content{
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 45px;
+        color: #939090;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .img{
+        width: 100px;
+        margin: 0px 15px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0px 15px;
+    }
+    .name{
+        font-family: inter;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .position{
+        font-family: inter;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .title-1{
+        font-family: Merriweather;
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFCF24;
+        line-height: 35px;
+    }
+    .title-2{
+        font-family: Merriweather;
+        font-size: 25px;
+        font-weight: 600;
+        color: #616161;
+    }
+    .middle{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .content{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 40px;
+        color: #939090;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .img{
+        width: 80px;
+        margin: 0px 10px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0px 10px;
+    }
+    .name{
+        font-family: inter;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .position{
+        font-family: inter;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+}

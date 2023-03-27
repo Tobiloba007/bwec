@@ -1,0 +1,192 @@
+.wrapper{
+    background-image: url(../../Assets/beggars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    padding: 0px 100px;
+}
+.title{
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFCF24;
+    /* width: 50vw; */
+    line-height: 80px;
+}
+.title-words{
+    font-family: Plus Jakarta Sans;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 46vw;
+    margin: 30px 0px 35px 0px;
+    line-height: 35px;
+}
+.btn-con{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btn-left{
+    background-color: #FFCF24;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 18px 38px;
+}
+.btn-right{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 17px 38px;
+    margin: 0px 40px;
+    color: #ffff;
+    border: 2px solid #ffff;
+}
+
+@media (max-width: 1024px) {
+    .wrapper{
+        background-image: url(../../Assets/beggars.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 34rem;
+        padding: 0px 100px;
+    }
+    .title{
+        font-family: 'Merriweather';
+        font-size: 50px;
+        font-weight: 700;
+        color: #FFCF24;
+        width: 50vw;
+        line-height: 60px;
+    }
+    .title-words{
+        color: #ffff;
+        font-size: 16px;
+        font-weight: 400;
+        width: 46vw;
+        margin: 25px 0px 30px 0px;
+        line-height: 30px;
+    }
+    .btn-con{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .btn-left{
+        background-color: #FFCF24;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 16px 35px;
+    }
+    .btn-right{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 15px 35px;
+        margin: 0px 40px;
+        color: #ffff;
+        border: 2px solid #ffff;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        background-image: url(../../Assets/beggars.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 32rem;
+        padding: 0px 50px;
+    }
+    .title{
+        font-family: 'Merriweather';
+        font-size: 45px;
+        font-weight: 600;
+        color: #FFCF24;
+        width: 50vw;
+        line-height: 50px;
+    }
+    .title-words{
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 200;
+        width: 50vw;
+        margin: 25px 0px 25px 0px;
+        line-height: 25px;
+    }
+    .btn-con{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .btn-left{
+        background-color: #FFCF24;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 14px 35px;
+    }
+    .btn-right{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 12px 35px;
+        margin: 0px 40px;
+        color: #ffff;
+        border: 1px solid #ffff;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper{
+        background-image: url(../../Assets/beggars.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 30rem;
+        padding: 0px 30px;
+    }
+    .title{
+        font-family: 'Merriweather';
+        font-size: 30px;
+        font-weight: 500;
+        color: #FFCF24;
+        width: 70vw;
+        line-height: 40px;
+    }
+    .title-words{
+        color: #ffff;
+        font-size: 13px;
+        font-weight: 200;
+        width: 80vw;
+        margin: 10px 0px 25px 0px;
+        line-height: 23px;
+    }
+    .btn-con{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .btn-left{
+        background-color: #FFCF24;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 10px 25px;
+    }
+    .btn-right{
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        padding: 9px 25px;
+        margin: 0px 25px;
+        color: #ffff;
+        border: 1px solid #ffff;
+    }
+
+}
