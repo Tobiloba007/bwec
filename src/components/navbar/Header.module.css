@@ -1,0 +1,322 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    width: 180px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    font-family: inter;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 30px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-btn{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: #FFCF24;
+    padding: 20px 0px;
+    width: 200px;
+}
+.canvas-con{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .logo{
+        width: 180px;
+    }
+    .middle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .links{
+        font-family: inter;
+        color: #ffff;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0px 20px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-btn{
+        font-family: inter;
+        font-size: 15px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        background-color: #FFCF24;
+        padding: 15px 0px;
+        width: 180px;
+    }
+    .canvas-con{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .logo{
+        width: 180px;
+    }
+    .middle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .links{
+        font-family: inter;
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0px 13px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-btn{
+        font-family: inter;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        background-color: #FFCF24;
+        padding: 10px 0px;
+        width: 160px;
+    }
+    .canvas-con{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .logo{
+        width: 180px;
+    }
+    .middle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .links{
+        font-family: inter;
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0px 13px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-btn{
+        font-family: inter;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        background-color: #FFCF24;
+        padding: 10px 0px;
+        width: 160px;
+    }
+    .canvas-con{
+        display: flex;
+    }
+    .canvas-btn{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .canvas-top-con{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: -30px;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+    .canvas-top-logo{
+        width: 120px;
+        margin-left: -25px;
+    }
+    .canvas-menu{
+        border: none;
+        outline: none;
+        padding: 5px 15px 10px 15px;
+        border-radius: 5px;
+    }
+    .canvas-slide{
+        overflow-y: scroll;
+    }
+    .canvas-lists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .canvas-link{
+        text-decoration: none;
+        color: rgb(53, 52, 52);
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .canvas-link-btn{
+        font-size: 11px;
+        text-align: center;
+        border: none;
+        outline: none;
+        background-color: #FFCF24;
+        color: black;
+        padding: 8px 20px;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .wrapper{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .logo{
+        width: 180px;
+    }
+    .middle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .links{
+        font-family: inter;
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0px 13px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-btn{
+        font-family: inter;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        background-color: #FFCF24;
+        padding: 10px 0px;
+        width: 160px;
+    }
+    .canvas-con{
+        display: flex;
+    }
+    .canvas-btn{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .canvas-top-con{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: -15px;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+    .canvas-top-logo{
+        width: 120px;
+        margin-left: -25px;
+    }
+    .canvas-menu{
+        border: none;
+        outline: none;
+        padding: 5px 15px 10px 15px;
+        border-radius: 5px;
+    }
+    .canvas-slide{
+        overflow-y: scroll;
+    }
+    .canvas-lists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .canvas-link{
+        text-decoration: none;
+        color: rgb(53, 52, 52);
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .canvas-link-btn{
+        font-size: 10px;
+        text-align: center;
+        border: none;
+        outline: none;
+        background-color: #FFCF24;
+        color: black;
+        padding: 8px 20px;
+        margin-bottom: 25px;
+    }
+}

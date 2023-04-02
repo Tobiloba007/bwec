@@ -3,8 +3,12 @@ import classes from './Section2.module.css'
 import vector1 from '../../Assets/vector1.png'
 import vector2 from '../../Assets/vector2.png'
 import vector3 from '../../Assets/vector3.png'
+import { useNavigate } from 'react-router-dom'
 
 const Section2 = () => {
+
+    const navigate = useNavigate();
+    
   return (
     <div className={classes['wrapper']}>
         <div className={classes['top']}>
@@ -28,7 +32,8 @@ const Section2 = () => {
                     </div>
                     <p className={classes['top-card-title']}>Volunteer</p>
                     <p className={classes['top-card-words']}>Be a reason for someone happiness</p>
-                    <button className={classes['top-card-btn2']}>JOIN US</button>
+                    <button onClick={()=>navigate('/join-us')}
+                    className={classes['top-card-btn2']}>JOIN US</button>
                 </div>
                              {/* CARD 3 */}
                 <div className={classes['top-card1']}>

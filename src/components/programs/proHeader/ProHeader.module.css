@@ -1,0 +1,117 @@
+.wrapper{
+    background-image: url(../../../Assets/aboutHeader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    padding: 0px 100px;
+    height: 22rem;
+}
+.welcome-mssg{
+    font-family: Merriweather;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 65%;
+    width: 85vw;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper{
+        background-image: url(../../../Assets/aboutHeader.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100vw;
+        padding: 0px 100px;
+        height: 22rem;
+    }
+    .welcome-mssg{
+        font-family: Merriweather;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 65%;
+        width: 85vw;
+        font-size: 55px;
+        font-weight: 700;
+        color: #ffff;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        background-image: url(../../../Assets/aboutHeader.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100vw;
+        padding: 0px 50px;
+        height: 17rem;
+    }
+    .welcome-mssg{
+        font-family: Merriweather;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 65%;
+        width: 85vw;
+        font-size: 55px;
+        font-weight: 700;
+        color: #ffff;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        background-image: url(../../../Assets/aboutHeader.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100vw;
+        padding: 0px 50px;
+        height: 15rem;
+    }
+    .welcome-mssg{
+        font-family: Merriweather;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 65%;
+        width: 85vw;
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffff;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .wrapper{
+        background-image: url(../../../Assets/aboutHeader.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100vw;
+        padding: 0px 50px;
+        height: 14rem;
+    }
+    .welcome-mssg{
+        font-family: Merriweather;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 70%;
+        width: 75vw;
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffff;
+    }
+}

@@ -187,6 +187,8 @@
     color: #ffff;
     padding: 18px 70px;
     margin-top: 50px;
+    border: none;
+    outline: none;
 }
 
 @media screen and (max-width: 1024px) {

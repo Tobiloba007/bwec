@@ -67,25 +67,31 @@
     font-family: inter;
     color: #ffff;
     background-color: #15ABAB;
-    padding: 20px 60px;
-    font-size: 18px;
+    padding: 20px 0px;
+    width: 14rem;
+    font-size: 16px;
     font-weight: 600;
+    border: none;
 }
 .top-card-btn2{
     font-family: inter;
     color: #ffff;
     background-color: #F01B1B;
-    padding: 20px 87px;
-    font-size: 18px;
+    padding: 20px 0px;
+    width: 14rem;
+    font-size: 16px;
     font-weight: 600;
+    border: none;
 }
 .top-card-btn3{
     font-family: inter;
     color: black;
     background-color: #FFCF24;
-    padding: 20px 60px;
-    font-size: 18px;
+    padding: 20px 0px;
+    width: 14rem;
+    font-size: 16px;
     font-weight: 600;
+    border: none;
 }
 .bottom{
     display: flex;
@@ -100,13 +106,17 @@
     width: 40vw;
     margin: 0px 50px;
 }
+.bottom-img{
+    height: 41rem;
+    width: 40vw;
+}
 .bottom-right{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     width: 40vw;
-    margin: 0px 50px;
+    margin: 30px 50px;
 }
 .bottom-about{
     font-family: Merriweather;
@@ -127,7 +137,7 @@
     font-family: Plus Jakarta Sans;
     color: #939090;
     line-height: 35px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-weight: 500;
     width: 38vw;
 }
@@ -135,10 +145,11 @@
     font-family: inter;
     color: black;
     background-color: #FFCF24;
-    margin-top: 35px;
+    margin-top: 15px;
     font-size: 18px;
     font-weight: 500;
     padding: 18px 50px;
+    border: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -174,7 +185,7 @@
         justify-content: center;
         border: 2px solid #A6A6A63D;
         padding: 20px 25px;
-        margin: 0px 55px;
+        margin: 0px 40px;
         margin-bottom: 50px;
     }
     .top-img-div1{
@@ -211,7 +222,8 @@
     .top-card-btn1{
         color: #ffff;
         background-color: #15ABAB;
-        padding: 5px 60px;
+        padding: 15px 0px;
+        width: 12rem;
         font-size: 13px;
         font-weight: 600;
         text-align: center;
@@ -219,7 +231,8 @@
     .top-card-btn2{
         color: #ffff;
         background-color: #F01B1B;
-        padding: 5px 75px;
+        padding: 15px 0px;
+        width: 12rem;
         font-size: 13px;
         font-weight: 600;
         text-align: center;
@@ -227,7 +240,8 @@
     .top-card-btn3{
         color: black;
         background-color: #FFCF24;
-        padding: 5px 60px;
+        padding: 15px 0px;
+        width: 12rem;
         font-size: 13px;
         font-weight: 600;
         text-align: center;
@@ -245,18 +259,22 @@
         width: 50vw;
         margin: 0px 20px;
     }
+    .bottom-img{
+        height: 33rem;
+        width: 40vw;
+    }
     .bottom-right{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
         width: 50vw;
-        margin: 0px 20px;
+        margin: 10px 20px;
     }
     .bottom-about{
         font-family: Merriweather;
         color: #FFCF24;
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 500;
         margin-bottom: 10px;
     }
@@ -264,21 +282,21 @@
         font-family: Merriweather;
         color: #616161;
         line-height: 45px;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
         width: 40vw;
     }
     .bottom-words{
         color: #939090;
         line-height: 32px;
-        margin-top: 20px;
+        margin-top: 0px;
         font-weight: 500;
         width: 40vw;
     }
     .bottom-btn{
         color: black;
         background-color: #FFCF24;
-        margin-top: 35px;
+        margin-top: 15px;
         font-size: 14px;
         font-weight: 500;
         padding: 12px 35px;
@@ -318,7 +336,7 @@
         justify-content: center;
         border: 2px solid #A6A6A63D;
         padding: 20px 15px;
-        margin: 0px 20px;
+        margin: 0px 10px;
         margin-bottom: 50px;
     }
     .top-img-div1{
@@ -340,7 +358,7 @@
         padding: 20px;
     }
     .top-card-title{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
         color: #616161;
         margin-top: 12px;
@@ -355,7 +373,8 @@
     .top-card-btn1{
         color: #ffff;
         background-color: #15ABAB;
-        padding: 10px 40px;
+        padding: 15px 0px;
+        width: 10rem;
         font-size: 13px;
         font-weight: 600;
         text-align: center;
@@ -363,7 +382,8 @@
     .top-card-btn2{
         color: #ffff;
         background-color: #F01B1B;
-        padding: 10px 50px;
+        padding: 15px 0px;
+        width: 10rem;
         font-size: 13px;
         font-weight: 600;
         text-align: center;
@@ -371,7 +391,8 @@
     .top-card-btn3{
         color: black;
         background-color: #FFCF24;
-        padding: 10px 40px;
+        padding: 15px 0px;
+        width: 10rem;
         font-size: 13px;
         font-weight: 600;
         text-align: center;
@@ -389,18 +410,22 @@
         width: 50vw;
         margin: 0px 10px;
     }
+    .bottom-img{
+        height: 31rem;
+        width: 40vw;
+    }
     .bottom-right{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
         width: 50vw;
-        margin: 0px 10px;
+        margin: 10px 10px;
     }
     .bottom-about{
         font-family: Merriweather;
         color: #FFCF24;
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 500;
         margin-bottom: 5px;
     }
@@ -408,14 +433,14 @@
         font-family: Merriweather;
         color: #616161;
         line-height: 37px;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 600;
         width: 45vw;
     }
     .bottom-words{
         color: #939090;
         line-height: 32px;
-        margin-top: 20px;
+        margin-top: 0px;
         font-size: 14px;
         font-weight: 500;
         width: 45vw;
@@ -423,14 +448,14 @@
     .bottom-btn{
         color: black;
         background-color: #FFCF24;
-        margin-top: 15px;
+        margin-top: 10px;
         font-size: 12px;
         font-weight: 500;
         padding: 10px 25px;
     }
 
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
     .wrapper{
         margin-top: 60px;
         margin-bottom: 50px;
@@ -535,6 +560,10 @@
         justify-content: center;
         width: 85vw;
         margin: 0px 0px;
+    }
+    .bottom-img{
+        height: 23rem;
+        width: 80vw;
     }
     .bottom-right{
         display: flex;

@@ -3,8 +3,12 @@ import classes from './Section4.module.css'
 import { IoMdTime } from 'react-icons/io'
 import rightImg from '../../Assets/vector9.png'
 import { events } from './events'
+import { useNavigate } from 'react-router-dom'
 
 const Section4 = () => {
+
+    const navigate = useNavigate();
+    
   return (
     <div className={classes['wrapper']}>
                     {/* TITLE */}
@@ -52,7 +56,8 @@ const Section4 = () => {
                         </p>
                         <p className={classes['right-bottom-2']}> Medical Outreach</p>
                         <p className={classes['right-bottom-3']}>We are offering free medical check up to communities.</p>
-                        <button className={classes['right-bottom-btn']}>JOIN US</button>
+                        <button onClick={()=>navigate('/join-us')}
+                        className={classes['right-bottom-btn']}>JOIN US</button>
                     </div>
                 </div>
             </div>
