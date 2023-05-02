@@ -71,6 +71,7 @@
     font-family: inter;
     font-size: 40px;
     font-weight: 600;
+    margin-top: 15px;
 }
 .left-item-month{
     font-family: inter;
@@ -197,7 +198,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 20px 0px 80px 0px;
+        margin: 20px 0px 50px 0px;
     }
     .top-con{
         display: flex;
@@ -220,7 +221,7 @@
     .bottom-con{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         width: 100vw;
         margin-top: 20px;
         padding: 0px 2px;
@@ -277,7 +278,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        margin: 0px 10px;
+        margin: 0px 50px 0px 0px;
     }
     .right-item-1{
         font-family: inter;
@@ -309,7 +310,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 45vw;
+        width: 50vw;
+        margin-right: 0px;
     }
     .bottom-right-con{
         display: flex;
@@ -329,6 +331,7 @@
     }
     .bottom-top-img{
         border-radius: 15px;
+        width: 40vw;
     }
     .bottom-top-btn{
         position: absolute;
@@ -662,12 +665,13 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 40px;
+        margin-top: 10px;
     }
     .left-item-month{
         font-family: inter;
         font-size: 16px;
         font-weight: 300;
-        margin-top: -12px;
+        margin-top: -20px;
     }
     .right-item{
         display: flex;
@@ -782,7 +786,7 @@
         background-color: #F01B1B;
         color: #ffff;
         padding: 10px 35px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
 }

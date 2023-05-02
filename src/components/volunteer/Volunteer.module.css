@@ -1,0 +1,370 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 120px 0px;
+}
+.background{
+    background-image: url('../../Assets//img6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid #FEA700;
+    width: 45vw;
+    margin: 100px 0px;
+}
+.title{
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffff;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input1{
+    width: 32vw;
+    height: 75px;
+    margin: 10px 0px;
+    border: none;
+}
+.input2{
+    width: 32vw;
+    height: 75px;
+    margin: 10px 0px;
+    border: none;
+}
+.input1::placeholder{
+    font-family: Plus Jakarta Sans;
+    padding-left: 40px;
+    font-weight: 500;
+    color: #616161;
+}
+.input2::placeholder{
+    font-family: Plus Jakarta Sans;
+    padding-left: 40px;
+    font-weight: 500;
+    color: #616161;
+}
+.textarea{
+    width: 32vw;
+    height: 200px;
+    margin: 10px 0px;
+    border: none;
+}
+.textarea::placeholder{
+    font-family: Plus Jakarta Sans;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-weight: 500;
+    color: #616161;
+}
+.btn{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3E3D3D;
+    background-color: #FEA700;
+    width: 32vw;
+    height: 65px;
+    margin: 45px 0px 60px 0px;
+    border: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin: 75px 0px;
+    }
+    .background{
+        background-image: url('../../Assets//img6.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 85vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 12px solid #FEA700;
+        width: 50vw;
+        margin: 100px 0px;
+    }
+    .title{
+        font-family: Merriweather;
+        font-size: 37px;
+        font-weight: 600;
+        color: #ffff;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .input1{
+        width: 32vw;
+        height: 60px;
+        margin: 8px 0px;
+        border: none;
+    }
+    .input2{
+        width: 32vw;
+        height: 60px;
+        margin: 8px 0px;
+        border: none;
+    }
+    .input1::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .input2::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .textarea{
+        width: 32vw;
+        height: 170px;
+        margin: 8px 0px;
+        border: none;
+    }
+    .textarea::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .btn{
+        font-family: inter;
+        font-size: 14px;
+        font-weight: 600;
+        color: #3E3D3D;
+        background-color: #FEA700;
+        width: 32vw;
+        height: 50px;
+        margin: 30px 0px 40px 0px;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin: 60px 0px;
+    }
+    .background{
+        background-image: url('../../Assets//img6.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 12px solid #FEA700;
+        width: 75vw;
+        margin: 70px 0px;
+    }
+    .title{
+        font-family: Merriweather;
+        font-size: 32px;
+        font-weight: 600;
+        color: #ffff;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .input1{
+        width: 38vw;
+        height: 50px;
+        margin: 6px 0px;
+        border: none;
+    }
+    .input2{
+        width: 38vw;
+        height: 50px;
+        margin: 6px 0px;
+        border: none;
+    }
+    .input1::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .input2::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .textarea{
+        width: 38vw;
+        height: 170px;
+        margin: 6px 0px;
+        border: none;
+    }
+    .textarea::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 30px;
+        padding-top: 15px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .btn{
+        font-family: inter;
+        font-size: 13px;
+        font-weight: 600;
+        color: #3E3D3D;
+        background-color: #FEA700;
+        width: 38vw;
+        height: 43px;
+        margin: 20px 0px 40px 0px;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin: 50px 0px;
+    }
+    .background{
+        background-image: url('../../Assets//img6.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 7px solid #FEA700;
+        width: 85vw;
+        margin: 50px 0px;
+    }
+    .title{
+        font-family: Merriweather;
+        text-align: center;
+        font-size: 27px;
+        font-weight: 600;
+        color: #ffff;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .input1{
+        width: 60vw;
+        height: 45px;
+        margin: 10px 0px;
+        border: none;
+    }
+    .input2{
+        width: 60vw;
+        height: 45px;
+        margin: 10px 0px;
+        border: none;
+    }
+    .input1::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 20px;
+        font-size: 11px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .input2::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 20px;
+        font-size: 11px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .textarea{
+        width: 60vw;
+        height: 140px;
+        margin: 10px 0px;
+        border: none;
+    }
+    .textarea::placeholder{
+        font-family: Plus Jakarta Sans;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 11px;
+        font-weight: 500;
+        color: #616161;
+    }
+    .btn{
+        font-family: inter;
+        font-size: 13px;
+        font-weight: 600;
+        color: #3E3D3D;
+        background-color: #FEA700;
+        width: 60vw;
+        height: 43px;
+        margin: 20px 0px 40px 0px;
+        border: none;
+    }
+
+}

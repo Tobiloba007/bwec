@@ -72,13 +72,16 @@
     color: #ffff;
     display: flex;
     align-items: center;
+    text-decoration: none;
+}
+.middle-links:active{
+    color: #FFCF24;
 }
 .right{
     display: flex;
     flex-direction: column;
    align-items: flex-start;
-   justify-content: center; 
-   /* width: 20vw; */
+   justify-content: flex-start; 
    margin-left: 50px;
 }
 .right-title{
@@ -92,12 +95,23 @@
 .right-1{
     font-family: poppins;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
     color: #ffff;
     font-size: 18px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 30px;
+}
+.address{
+    font-family: poppins;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 300px;
 }
 .right-icon{
     font-size: 27px;
@@ -207,7 +221,7 @@
         display: flex;
         flex-direction: column;
        align-items: flex-start;
-       justify-content: center; 
+       justify-content: flex-start; 
        margin-left: 0px;
     }
     .right-title{
@@ -227,6 +241,17 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 40px;
+    }
+    .address{
+        font-family: poppins;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        color: #ffff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        width: 300px;
     }
     .right-icon{
         font-size: 23px;
@@ -357,9 +382,21 @@
         font-weight: 400;
         line-height: 30px;
     }
+    .address{
+        font-family: poppins;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        color: #ffff;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 300px;
+    }
     .right-icon{
         font-size: 20px;
         margin-right: 7px;
+        margin-top: 5px;
     }
     .hr{
         color: #ffff;
@@ -390,7 +427,7 @@
     .wrapper{
         background-image: url('../../Assets/vector12.png');
         width: 100vw;
-        height: 39.5rem;
+        height: 40rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -458,9 +495,10 @@
     }
     .middle-links{
         font-family: poppins;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 300;
         line-height: 12px;
+        margin: 8px 0px;
         color: #ffff;
         display: flex;
         align-items: center;
@@ -489,6 +527,17 @@
         font-size: 13px;
         font-weight: 300;
         line-height: 18px;
+    }
+    .address{
+        font-family: poppins;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        color: #ffff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 18px;
+        width: 300px;
     }
     .right-icon{
         font-size: 20px;

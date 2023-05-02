@@ -14,7 +14,7 @@ const Testimonials = () => {
 
         <div className={classes['middle']}>
             <p className={classes['content']}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do tempor incididunt ut labore et do,Lorem ipsum dolor sit amet, consectetur 
+               We appreciate BWEC’s dedication to the area and beyond. May the Father give you strength and favor, along with all the volunteers.
             </p>
         </div>
 

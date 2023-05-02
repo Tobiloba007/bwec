@@ -26,14 +26,15 @@ const Section3 = () => {
                 <div className={classes['content-card']}>
                     <div className={classes['content-card-top']}>
                         <img className={classes['content-card-img']} src={img1} alt="" />
-                        <button className={classes['content-card-btn']}>DONATE NOW</button>
+                        {/* <button className={classes['content-card-btn']}>DONATE NOW</button> */}
                     </div>
                     <div className={classes['content-card-bottom']}>
                         <p className={classes['content-card-bottom-title']}>Immigrant Settlement</p>
                         <p className={classes['content-card-bottom-content']}>
                         We help and support new immigrants by providing them with free counseling, support with job and housing searches, and any other resources they may need.
                         </p>
-                        <Link className={classes['content-card-bottom-link1']}>Read more</Link>
+                        <Link to='/programs'
+                        className={classes['content-card-bottom-link1']}>Read more</Link>
                         <img className={classes['hr']} src={hr} alt="" />
                     </div>
                 </div>
@@ -41,14 +42,15 @@ const Section3 = () => {
                 <div className={classes['content-card']}>
                     <div className={classes['content-card-top']}>
                         <img className={classes['content-card-img']} src={img2} alt="" />
-                        <button className={classes['content-card-btn']}>DONATE NOW</button>
+                        {/* <button className={classes['content-card-btn']}>DONATE NOW</button> */}
                     </div>
                     <div className={classes['content-card-bottom']}>
                         <p className={classes['content-card-bottom-title']}>Educational workshops</p>
                         <p className={classes['content-card-bottom-content']}>
                            Providing Educational workshops sessions that will connect youths to different skills and pathways to learning.
                         </p>
-                        <Link className={classes['content-card-bottom-link2']}>Read more</Link>
+                        <Link to='/programs' 
+                        className={classes['content-card-bottom-link2']}>Read more</Link>
                         <img className={classes['hr']} src={hr} alt="" />
                     </div>
                 </div>
@@ -56,14 +58,15 @@ const Section3 = () => {
                 <div className={classes['content-card']}>
                     <div className={classes['content-card-top']}>
                         <img className={classes['content-card-img']} src={img3} alt="" />
-                        <button className={classes['content-card-btn']}>DONATE NOW</button>
+                        {/* <button className={classes['content-card-btn']}>DONATE NOW</button> */}
                     </div>
                     <div className={classes['content-card-bottom']}>
                         <p className={classes['content-card-bottom-title']}>Supporting seniors</p>
                         <p className={classes['content-card-bottom-content']}>
                         through interactive groups to alleviate loneliness and isolation.
                         </p>
-                        <Link className={classes['content-card-bottom-link3']}>Read more</Link>
+                        <Link to='/programs'
+                         className={classes['content-card-bottom-link3']}>Read more</Link>
                         <img className={classes['hr']} src={hr} alt="" />
                     </div>
                 </div>

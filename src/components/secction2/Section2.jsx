@@ -23,7 +23,8 @@ const Section2 = () => {
                     </div>
                     <p className={classes['top-card-title']}>Donate</p>
                     <p className={classes['top-card-words']}>Be a reason for someone happiness</p>
-                    <button className={classes['top-card-btn1']}>DONATE NOW</button>
+                    <button onClick={()=>navigate('/donate')}
+                    className={classes['top-card-btn1']}>DONATE NOW</button>
                 </div>
                              {/* CARD 2 */}
                 <div className={classes['top-card1']}>
@@ -32,8 +33,9 @@ const Section2 = () => {
                     </div>
                     <p className={classes['top-card-title']}>Volunteer</p>
                     <p className={classes['top-card-words']}>Be a reason for someone happiness</p>
-                    <button onClick={()=>navigate('/join-us')}
-                    className={classes['top-card-btn2']}>JOIN US</button>
+                    <a href="https://forms.gle/yYn4RAYLiBetqqyn9" target="_blank" rel="noopener noreferrer">
+                      <button className={classes['top-card-btn2']}>JOIN US</button>
+                    </a>
                 </div>
                              {/* CARD 3 */}
                 <div className={classes['top-card1']}>
@@ -42,7 +44,9 @@ const Section2 = () => {
                     </div>
                     <p className={classes['top-card-title']}>Support</p>
                     <p className={classes['top-card-words']}>Be a reason for someone happiness</p>
-                    <button className={classes['top-card-btn3']}>DONATE NOW</button>
+                    <a href="https://forms.gle/YXCcR7zyoiLQpbbs8" target="_blank" rel="noopener noreferrer">
+                      <button className={classes['top-card-btn3']}>REGISTER NOW</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -57,7 +61,8 @@ const Section2 = () => {
                 <p className={classes['bottom-words']}>
                    Blooming Wells Centre is about focusing on empowering individuals by providing necessary tools of support and helping them to take little steps towards acquiring necessary skills that will transform their lives. Our purpose is to inspire and engage our youths and provide ongoing support to overcome various life barriers that may have been preventing them from living a fulfilling life.
                 </p>
-                <button className={classes['bottom-btn']}>READ MORE</button>
+                <button onClick={()=>navigate('/about')}
+                className={classes['bottom-btn']}>READ MORE</button>
             </div>
         </div>
     </div>

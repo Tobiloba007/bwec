@@ -23,6 +23,12 @@
     font-weight: 600;
     margin: 0px 30px;
 }
+.links:active{
+    color: #FFCF24;
+}
+.links:focus{
+    color: #FFCF24;
+}
 .right{
     display: flex;
     align-items: center;
@@ -30,6 +36,9 @@
 }
 .right-btn{
     font-family: inter;
+    text-align: center;
+    text-decoration: none;
+    color: black;
     font-size: 16px;
     font-weight: 700;
     border: none;
@@ -75,6 +84,9 @@
     }
     .right-btn{
         font-family: inter;
+        text-align: center;
+        text-decoration: none;
+        color: black;
         font-size: 15px;
         font-weight: 700;
         border: none;
@@ -121,6 +133,9 @@
     }
     .right-btn{
         font-family: inter;
+        text-align: center;
+        text-decoration: none;
+        color: black;
         font-size: 14px;
         font-weight: 600;
         border: none;
@@ -217,6 +232,7 @@
         margin-bottom: 15px;
     }
     .canvas-link-btn{
+        text-decoration: none;
         font-size: 11px;
         text-align: center;
         border: none;
@@ -310,6 +326,7 @@
         margin-bottom: 15px;
     }
     .canvas-link-btn{
+        text-decoration: none;
         font-size: 10px;
         text-align: center;
         border: none;

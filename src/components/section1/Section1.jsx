@@ -15,8 +15,12 @@ const Section1 = () => {
             </p>
         </div>
         <div className={classes['btn-con']}>
-            <button className={classes['btn-left']}>DONATE NOW</button>
-            <button className={classes['btn-right']}>LEARN MORE</button>
+          <a href="https://forms.gle/YXCcR7zyoiLQpbbs8" target="_blank" rel="noopener noreferrer">
+            <button className={classes['btn-left']}>REGISTER NOW</button>
+          </a>
+          <a href="https://forms.gle/yYn4RAYLiBetqqyn9" target='_blank' rel="noopener noreferrer">
+            <button className={classes['btn-right']}>JOIN US</button>
+          </a>
         </div>
     </div>
   )

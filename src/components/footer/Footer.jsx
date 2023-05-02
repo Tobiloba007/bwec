@@ -6,6 +6,7 @@ import { IoLocationSharp } from 'react-icons/io5'
 import { MdEmail } from 'react-icons/md'
 import { HiPhone } from 'react-icons/hi'
 import { AiOutlineCopyrightCircle } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -29,23 +30,28 @@ const Footer = () => {
 
             <div className={classes['middle']}>
                 <h1 className={classes['middle-title']}>Quick Links</h1>
-                <p className={classes['middle-links']}>About Us</p>
-                <p className={classes['middle-links']}>Programs</p>
-                <p className={classes['middle-links']}>Services</p>
-                <p className={classes['middle-links']}>Events</p>
-                <p className={classes['middle-links']}>Contact Us</p>
+                <Link to='/'
+                className={classes['middle-links']}>Home</Link>
+                <Link to='/about'
+                 className={classes['middle-links']}>About Us</Link>
+                <Link to='/programs'
+                className={classes['middle-links']}>Programs</Link>
+                <Link to='/events' 
+                className={classes['middle-links']}>Events</Link>
+                <Link className={classes['middle-links']}>Contact Us</Link>
             </div>
 
             <div className={classes['right']}>
                <h1 className={classes['right-title']}>Contacts</h1>
-               <p className={classes['right-1']}>
-                <IoLocationSharp className={classes['right-icon']} />101, Toronto, CA.
+               <p className={classes['address']}>
+                <IoLocationSharp className={classes['right-icon']} />
+                18, Corporation Drive, Brampton Ontario, L6S 6B5, Canada.
                </p>
                <p className={classes['right-1']}>
-                <MdEmail className={classes['right-icon']} />addyouremail.com
+                <MdEmail className={classes['right-icon']} />bloomingwells66@gmail.com
                </p>
                <p className={classes['right-1']}>
-                <HiPhone className={classes['right-icon']} />+44 980404535
+                <HiPhone className={classes['right-icon']} />+647-216-2728
                </p>
             </div>
         </div>
@@ -54,7 +60,10 @@ const Footer = () => {
 
         <div className={classes['bottom']}>
             <AiOutlineCopyrightCircle className={classes['bottom-icon']} />
-            <p className={classes['bottom-content']}>2023 BWEC is powered by <span style={{color: '#FFCF24'}}>Lexcr8t</span></p>
+            <p className={classes['bottom-content']}>2023 BWEC is powered by <a href='https://www.linkedin.com/in/olajuwon-olalekan' 
+            style={{color: '#FFCF24', textDecoration: 'none'}}>
+              Lexcr8t
+              </a></p>
         </div>
 
     </div>

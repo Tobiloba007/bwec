@@ -1,5 +1,5 @@
 .wrapper{
-    background-image: url(../../Assets/beggars.png);
+    background-image: url(../../Assets/img1.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -50,7 +50,7 @@
 
 @media (max-width: 1024px) {
     .wrapper{
-        background-image: url(../../Assets/beggars.png);
+        background-image: url(../../Assets/img1.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -99,7 +99,7 @@
 }
 @media screen and (max-width: 768px) {
     .wrapper{
-        background-image: url(../../Assets/beggars.png);
+        background-image: url(../../Assets/img1.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -148,7 +148,7 @@
 
 @media screen and (max-width: 480px) {
     .wrapper{
-        background-image: url(../../Assets/beggars.png);
+        background-image: url(../../Assets/img1.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;

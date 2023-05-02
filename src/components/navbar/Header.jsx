@@ -13,7 +13,8 @@ const Header = () => {
       <div className={classes['wrapper']}>
 
         <div className={classes['left']}>
-          <img className={classes['logo']} src={logo} alt="" />
+          <img onClick={()=>navigate('/')}
+          className={classes['logo']} src={logo} alt="logo" />
         </div>
 
         <div className={classes['middle']}>
@@ -39,14 +40,16 @@ const Header = () => {
         </div>
 
         <div className={classes['right']}>
-          <button className={classes['right-btn']}>CONTACT US</button>
+          <Link to={{ pathname: '/', search: '?sectionId=contacts' }}
+          className={classes['right-btn']}>CONTACT US</Link>
         </div>
 
       </div>
 
       <div className={classes['canvas-con']}>
         <div className={classes['canvas-top-con']}>
-          <img className={classes['canvas-top-logo']} src={logo} alt="" />
+          <img onClick={()=>navigate('/')}
+          className={classes['canvas-top-logo']} src={logo} alt="logo" />
           <button className={classes['canvas-menu']}  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
              <AiOutlineMenuUnfold />
           </button>
@@ -73,9 +76,10 @@ const Header = () => {
                className={classes['canvas-link']}>
                     EVENTS
                </Link>
-               <button className={classes['canvas-link-btn']}>
+               <Link to={{ pathname: '/', search: '?sectionId=contacts' }}
+               className={classes['canvas-link-btn']}>
                      CONTACT US
-                </button>
+                </Link>
             </div>
             </div>
           </div>

@@ -56,8 +56,9 @@ const Section4 = () => {
                         </p>
                         <p className={classes['right-bottom-2']}> Medical Outreach</p>
                         <p className={classes['right-bottom-3']}>We are offering free medical check up to communities.</p>
-                        <button onClick={()=>navigate('/join-us')}
-                        className={classes['right-bottom-btn']}>JOIN US</button>
+                        <a href="https://forms.gle/yYn4RAYLiBetqqyn9" target="_blank" rel="noopener noreferrer">
+                           <button className={classes['right-bottom-btn']}>JOIN US</button>
+                        </a>
                     </div>
                 </div>
             </div>
