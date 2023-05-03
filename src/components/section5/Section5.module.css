@@ -37,6 +37,9 @@
     padding: 22px 50px;
     margin-top: 50px;
 }
+.btn:hover{
+    background-color: #15ABAB;
+}
 
 @media screen and (max-width: 1024px) {
     .wrapper{

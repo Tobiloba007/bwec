@@ -15,6 +15,7 @@ const Header = () => {
         <div className={classes['left']}>
           <img onClick={()=>navigate('/')}
           className={classes['logo']} src={logo} alt="logo" />
+          <p className={classes['name']}>Blooming Wells Centre</p>
         </div>
 
         <div className={classes['middle']}>
@@ -48,12 +49,16 @@ const Header = () => {
 
       <div className={classes['canvas-con']}>
         <div className={classes['canvas-top-con']}>
-          <img onClick={()=>navigate('/')}
-          className={classes['canvas-top-logo']} src={logo} alt="logo" />
+          <div className={classes['logo-con']}>
+            <img onClick={()=>navigate('/')}
+            className={classes['canvas-top-logo']} src={logo} alt="logo" />
+             <p className={classes['canvas-name']}>Blooming Wells Centre</p>
+          </div>
           <button className={classes['canvas-menu']}  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
              <AiOutlineMenuUnfold />
           </button>
         </div>
+        
           <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
             <div className={classes['canvas-slide']} >
             <div class="offcanvas-header">

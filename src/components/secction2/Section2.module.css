@@ -73,6 +73,9 @@
     font-weight: 600;
     border: none;
 }
+.top-card-btn1:hover{
+    background-color: #FFCF24;
+}
 .top-card-btn2{
     font-family: inter;
     color: #ffff;
@@ -83,6 +86,11 @@
     font-weight: 600;
     border: none;
 }
+.top-card-btn2:hover{
+    border: 2px solid #F01B1B;
+    background-color: #ffff;
+    color: black;
+}
 .top-card-btn3{
     font-family: inter;
     color: black;
@@ -92,6 +100,9 @@
     font-size: 16px;
     font-weight: 600;
     border: none;
+}
+.top-card-btn3:hover{
+    background-color: #15ABAB;
 }
 .bottom{
     display: flex;
@@ -150,6 +161,9 @@
     font-weight: 500;
     padding: 18px 50px;
     border: none;
+}
+.bottom-btn:hover{
+    background-color: #15ABAB;
 }
 
 @media screen and (max-width: 1024px) {

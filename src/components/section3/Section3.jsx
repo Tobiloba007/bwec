@@ -63,7 +63,7 @@ const Section3 = () => {
                     <div className={classes['content-card-bottom']}>
                         <p className={classes['content-card-bottom-title']}>Supporting seniors</p>
                         <p className={classes['content-card-bottom-content']}>
-                        through interactive groups to alleviate loneliness and isolation.
+                          through interactive groups to alleviate loneliness and isolation. Providing food, cultural sensitivity, and activities to promote their mental health
                         </p>
                         <Link to='/programs'
                          className={classes['content-card-bottom-link3']}>Read more</Link>

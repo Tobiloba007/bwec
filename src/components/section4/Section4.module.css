@@ -191,6 +191,11 @@
     border: none;
     outline: none;
 }
+.right-bottom-btn:hover{
+    background-color: #ffff;
+    color: #616161;
+    border: 2px solid #F01B1B;
+}
 
 @media screen and (max-width: 1024px) {
     .wrapper{

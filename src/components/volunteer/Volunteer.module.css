@@ -23,6 +23,9 @@
     width: 45vw;
     margin: 100px 0px;
 }
+.container:hover{
+    border-color: #15ABAB;
+}
 .title{
     font-family: Merriweather;
     font-size: 40px;
@@ -84,6 +87,9 @@
     height: 65px;
     margin: 45px 0px 60px 0px;
     border: none;
+}
+.btn:hover{
+    background-color: #15ABAB;
 }
 
 @media screen and (max-width: 1024px) {

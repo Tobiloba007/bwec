@@ -5,11 +5,18 @@
 }
 .left{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .logo{
     width: 180px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    margin-top: -25px;
 }
 .middle{
     display: flex;
@@ -22,6 +29,9 @@
     font-size: 16px;
     font-weight: 600;
     margin: 0px 30px;
+}
+.links:hover{
+    color: #FFCF24;
 }
 .links:active{
     color: #FFCF24;
@@ -59,11 +69,18 @@
     }
     .left{
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
     .logo{
         width: 180px;
+    }
+    .name{
+        font-size: 18px;
+        font-weight: 500;
+        color: #ffff;
+        margin-top: -25px;
     }
     .middle{
         display: flex;
@@ -108,11 +125,18 @@
     }
     .left{
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
     .logo{
         width: 180px;
+    }
+    .name{
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffff;
+        margin-top: -25px;
     }
     .middle{
         display: flex;
@@ -163,6 +187,12 @@
     .logo{
         width: 180px;
     }
+    .name{
+        font-size: 20px;
+        font-weight: 500;
+        color: #ffff;
+        margin-top: -25px;
+    }
     .middle{
         display: flex;
         align-items: center;
@@ -192,6 +222,18 @@
     }
     .canvas-con{
         display: flex;
+    }
+    .logo-con{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .canvas-name{
+        font-size: 13px;
+        font-weight: 500;
+        color: #ffff;
+        margin-top: -20px;
     }
     .canvas-btn{
         display: flex;
@@ -287,6 +329,18 @@
     .canvas-con{
         display: flex;
     }
+    .logo-con{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .canvas-name{
+        font-size: 11px;
+        font-weight: 400;
+        color: #ffff;
+        margin-top: -18px;
+    }
     .canvas-btn{
         display: flex;
         align-items: center;
@@ -312,6 +366,7 @@
     }
     .canvas-slide{
         overflow-y: scroll;
+        /* height: 40rem; */
     }
     .canvas-lists{
         display: flex;
@@ -323,11 +378,16 @@
         text-decoration: none;
         color: rgb(53, 52, 52);
         font-size: 12px;
+        font-weight: 500;
         margin-bottom: 15px;
+    }
+    .canvas-link:hover{
+        color: blue;
     }
     .canvas-link-btn{
         text-decoration: none;
         font-size: 10px;
+        font-weight: 500;
         text-align: center;
         border: none;
         outline: none;
@@ -335,5 +395,8 @@
         color: black;
         padding: 8px 20px;
         margin-bottom: 25px;
+    }
+    .canvas-link-btn:hover{
+        border: 2px solid #FFCF24;
     }
 }

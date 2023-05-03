@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className={classes['wrapper']}>
+    <div className={classes['container']}>
 
         <div className={classes['top']}>
 
@@ -66,6 +67,7 @@ const Footer = () => {
               </a></p>
         </div>
 
+    </div>
     </div>
   )
 }

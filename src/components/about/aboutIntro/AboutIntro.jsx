@@ -18,7 +18,7 @@ const items = [
     },
     {
         icon: "IoCheckmarkSharp",
-        bullets: "Health & Wellness"
+        bullets: "Health & Fitness"
     },
     {
         icon: "IoCheckmarkSharp",
@@ -26,7 +26,7 @@ const items = [
     },
     {
         icon: "IoCheckmarkSharp",
-        bullets: "Money Donation"
+        bullets: "Overall Wellbeing"
     },
 ]
 

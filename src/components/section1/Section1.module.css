@@ -37,6 +37,9 @@
     padding: 18px 38px;
     border: none;
 }
+.btn-left:hover{
+    background-color: #15ABAB;
+}
 .btn-right{
     font-family: Inter;
     font-size: 14px;
@@ -46,6 +49,9 @@
     color: #ffff;
     border: 2px solid #ffff;
     background-color: transparent;
+}
+.btn-right:hover{
+    border: 2px solid #FFCF24;
 }
 
 @media (max-width: 1024px) {
@@ -166,7 +172,7 @@
     .title-words{
         color: #ffff;
         font-size: 13px;
-        font-weight: 200;
+        font-weight: 400;
         width: 80vw;
         margin: 10px 0px 25px 0px;
         line-height: 23px;
