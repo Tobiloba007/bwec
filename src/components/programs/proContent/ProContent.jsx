@@ -4,6 +4,7 @@ import img1 from '../../../Assets/img2.png'
 import img2 from '../../../Assets/img3.png'
 import img3 from '../../../Assets/img4.png'
 import img4 from '../../../Assets/img5.png'
+import img5 from '../../../Assets/img7.png'
 
 
 const ProContent = () => {
@@ -38,7 +39,7 @@ const ProContent = () => {
                       {/* Div 3 */}
         <div className={classes['div-1']}>
             <div className={classes['left-1']}>
-             <img className={classes['image-1']} src={img1} alt="" />
+             <img className={classes['image-1']} src={img5} alt="" />
             </div>
             <div className={classes['right-1']}>
                 <h1 className={classes['right-title-1']}>Immigrant & Refugee Support</h1>
