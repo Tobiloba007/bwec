@@ -8,7 +8,7 @@ const EventsHeader = () => {
     <Header />
     <p className={classes['welcome-mssg']}>Events</p>
   </div>
-  )
+  )  
 }
 
 export default EventsHeader

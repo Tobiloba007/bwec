@@ -5,9 +5,9 @@ import classes from './ProHeader.module.css'
 const ProHeader = () => {
   return (
     <div className={classes['wrapper']}>
-    <Header />
-    <p className={classes['welcome-mssg']}>Programs</p>
-  </div>
+       <Header />
+       <p className={classes['welcome-mssg']}>Programs</p>
+    </div>
   )
 }
 

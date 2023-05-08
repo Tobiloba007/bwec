@@ -1,5 +1,5 @@
 .wrapper{
-    background-image: url(../../../Assets/aboutHeader.png);
+    background-image: url(../../../Assets/aboutHeader.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 1200px) {
     .wrapper{
-        background-image: url(../../../Assets/aboutHeader.png);
+        background-image: url(../../../Assets/aboutHeader.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -46,7 +46,7 @@
 }
 @media screen and (max-width: 1024px) {
     .wrapper{
-        background-image: url(../../../Assets/aboutHeader.png);
+        background-image: url(../../../Assets/aboutHeader.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -70,7 +70,7 @@
 }
 @media screen and (max-width: 768px) {
     .wrapper{
-        background-image: url(../../../Assets/aboutHeader.png);
+        background-image: url(../../../Assets/aboutHeader.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -94,7 +94,7 @@
 }
 @media screen and (max-width: 480px) {
     .wrapper{
-        background-image: url(../../../Assets/aboutHeader.png);
+        background-image: url(../../../Assets/aboutHeader.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;

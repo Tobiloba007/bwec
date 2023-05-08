@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './AboutHeader.module.css'
-import img1 from '../../../Assets/aboutHeader.png'
+import img1 from '../../../Assets/aboutHeader.jpg'
 import Header from '../../navbar/Header'
 
 const AboutHeader = () => {

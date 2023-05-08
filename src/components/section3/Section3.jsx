@@ -72,6 +72,7 @@ const Section3 = () => {
                 </div>
 
             </div>
+            
 
             <div className={classes['bottom-content']}>
                 <img className={classes['bottom-content-img']} src={img4} alt="" />
