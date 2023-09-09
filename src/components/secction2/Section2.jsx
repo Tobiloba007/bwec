@@ -57,9 +57,9 @@ const Section2 = () => {
             </div>
             <div className={classes['bottom-right']}>
                 <p className={classes['bottom-about']}>About Us</p>
-                <p className={classes['bottom-title']}>We work for people to give them a happy life</p>
+                <p className={classes['bottom-title']}>We empower people towards living their best lives</p>
                 <p className={classes['bottom-words']}>
-                   Blooming Wells Centre is about focusing on empowering individuals by providing necessary tools of support and helping them to take little steps towards acquiring necessary skills that will transform their lives. Our purpose is to inspire and engage our youths and provide ongoing support to overcome various life barriers that may have been preventing them from living a fulfilling life.
+                   Blooming Wells Centre is about focusing on empowering individuals by providing necessary tools of support and helping them to take little steps towards acquiring necessary skills that will transform their lives. Our purpose is to inspire and engage people and provide ongoing support to overcome various life barriers that may have been preventing them from living a fulfilling life.
                 </p>
                 <button onClick={()=>navigate('/about')}
                 className={classes['bottom-btn']}>READ MORE</button>

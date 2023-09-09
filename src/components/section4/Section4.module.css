@@ -135,6 +135,9 @@
     justify-content: flex-start;
 }
 .bottom-top-img{
+    height: 466px;
+    width: 95%;
+    margin-top: 15px;
     border-radius: 15px;
 }
 .bottom-top-btn{
@@ -336,7 +339,10 @@
     }
     .bottom-top-img{
         border-radius: 15px;
-        width: 40vw;
+        height: 366px;
+        width: 90%;
+        margin-top: 12px;
+        /* width: 40vw; */
     }
     .bottom-top-btn{
         position: absolute;
@@ -533,8 +539,12 @@
     }
     .bottom-top-img{
         border-radius: 15px;
-        width: 40vw;
-        height: 19.8rem;
+        height: 300px;
+        width: 90%;
+        margin-top: 0px;
+        margin-left: 10px;
+        /* width: 40vw; */
+        /* height: 19.8rem; */
     }
     .bottom-top-btn{
         position: absolute;
@@ -737,7 +747,11 @@
     }
     .bottom-top-img{
         border-radius: 15px;
-        width: 90vw;
+        height: 300px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+        /* width: 90vw; */
     }
     .bottom-top-btn{
         position: absolute;

@@ -54,8 +54,8 @@ const Section4 = () => {
                         <IoMdTime className={classes['right-item-icon']} />
                             09:00 am - 11:00 am
                         </p>
-                        <p className={classes['right-bottom-2']}> Medical Outreach</p>
-                        <p className={classes['right-bottom-3']}>We are offering free medical check up to communities.</p>
+                        <p className={classes['right-bottom-2']}>Wellness Program</p>
+                        <p className={classes['right-bottom-3']}>We are offering free medical information &  wellness support.</p>
                         <a href="https://forms.gle/yYn4RAYLiBetqqyn9" target="_blank" rel="noopener noreferrer">
                            <button className={classes['right-bottom-btn']}>JOIN US</button>
                         </a>

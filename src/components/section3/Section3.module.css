@@ -129,7 +129,8 @@
 .bottom-content-words{
     font-family: Merriweather;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 700; 
+    line-height: 70px;
     color: #ffff;
 }
 .bottom-box-con{
@@ -380,6 +381,7 @@
         font-family: Merriweather;
         font-size: 60px;
         font-weight: 700;
+        line-height: 60px;
         color: #ffff;
     }
     .bottom-box-con{
@@ -629,6 +631,7 @@
         font-family: Merriweather;
         font-size: 40px;
         font-weight: 600;
+        line-height: 45px;
         color: #ffff;
     }
     .bottom-box-con{
@@ -879,6 +882,7 @@
         font-family: Merriweather;
         font-size: 30px;
         font-weight: 600;
+        line-height: 45px;
         color: #ffff;
     }
     .bottom-box-con{
@@ -1122,7 +1126,7 @@
     }
     .bottom-content1{
         position: absolute;
-        top: 40px;
+        top: 20px;
         left: 20px;
     }
     .bottom-content-title{
@@ -1134,6 +1138,7 @@
         font-family: Merriweather;
         font-size: 25px;
         font-weight: 500;
+        line-height: 32px;
         color: #ffff;
     }
     .bottom-box-con{

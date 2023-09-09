@@ -17,7 +17,7 @@ const Section3 = () => {
             <div className={classes['top-title']}>
                 <p className={classes['top-title1']}>Programs</p>
                 <p className={classes['top-title2']}>
-                Your participation can <br /> help transform many lives
+                 Transforming lives one person <br /> at a time
                 </p>
             </div>
 
@@ -78,7 +78,9 @@ const Section3 = () => {
                 <img className={classes['bottom-content-img']} src={img4} alt="" />
                 <div className={classes['bottom-content1']}>
                     <p className={classes['bottom-content-title']}>Our Statistics</p>
-                    <p className={classes['bottom-content-words']}>We Provide Help</p>
+                    <p className={classes['bottom-content-words']}>
+                    We Provide continuous <br />Assistance & Support
+                    </p>
                 </div>
 
                 <div className={classes['bottom-box-con']}>

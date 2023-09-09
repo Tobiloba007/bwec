@@ -4,8 +4,8 @@ export const events = [
         day: "01",
         month: "Feb",
         time: "09:00 am - 11:00 am ",
-        title: "Medical Outreach",
-        words: "We are offering free medical check up to communities.",
+        title: "Wellness Program",
+        words: "We are offering free medical information &  wellness support",
     },
     {
         id: 2,

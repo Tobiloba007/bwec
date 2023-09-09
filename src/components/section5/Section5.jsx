@@ -13,7 +13,7 @@ const Section5 = () => {
         <img className={classes['image']} src={image} alt="" />
 
         <div className={classes['content-con']}>
-          <p className={classes['paragraph']}>We aim to provide a vibrant destiny for the underprivileged</p>
+          <p className={classes['paragraph']}>together we aim to build a better & more  inclusive community</p>
           <button onClick={()=>{navigate('/donate')}}
           className={classes['btn']}>DONATE NOW </button>
         </div>

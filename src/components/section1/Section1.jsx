@@ -7,11 +7,11 @@ const Section1 = () => {
     <div className={classes['wrapper']}>
         <Header />
         <div className={classes['title-con']}>
-            <h1 className={classes['title']}>Little Efforts Make <br /> Big Changes</h1>
+            <h1 className={classes['title']}>Little Efforts Towards <br />Fundamental Changes</h1>
         </div>
         <div className={classes['title-words-con']}>
             <p className={classes['title-words']}>
-            We help, serve and provide basic necessities like food, clothing, and more learning opportunities to  individuals and people in marginalized black communities with various and intersecting identities & issues who still live in poverty .
+                We help, serve and provide basic necessities like food, clothing, and more learning opportunities to  individuals and people in marginalized  communities dealing with various intersecting identities and other  issues associated with poverty.
             </p>
         </div>
         <div className={classes['btn-con']}>
