@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Section5.module.css'
-import image from '../../Assets/vector10.png'
+import image from '../../Assets/vector10.jpg'
 import { useNavigate } from 'react-router-dom'
 
 const Section5 = () => {
