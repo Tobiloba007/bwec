@@ -1,10 +1,14 @@
 .wrapper{
     background-image: url(../../Assets/img1.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 45rem;
     padding: 0px 100px;
+}
+.title-con{
+    width: 60%;
 }
 .title{
     font-family: 'Merriweather';
@@ -61,15 +65,15 @@
         background-size: cover;
         width: 100%;
         height: 38rem;
-        padding: 0px 100px;
+        padding: 0px 90px;
     }
     .title{
         font-family: 'Merriweather';
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 700;
         color: #FFCF24;
-        width: 50vw;
-        line-height: 60px;
+        width: 100%;
+        line-height: 55px;
         margin-top: 40px;
     }
     .title-words{
@@ -77,8 +81,8 @@
         font-size: 16px;
         font-weight: 400;
         width: 46vw;
-        margin: 25px 0px 30px 0px;
-        line-height: 30px;
+        margin: 15px 0px 30px 0px;
+        line-height: 28px;
     }
     .btn-con{
         display: flex;
@@ -114,18 +118,18 @@
     }
     .title{
         font-family: 'Merriweather';
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 600;
         color: #FFCF24;
-        width: 50vw;
-        line-height: 50px;
+        line-height: 45px;
+        padding-top: 60px;
     }
     .title-words{
         color: #ffff;
         font-size: 14px;
         font-weight: 200;
         width: 50vw;
-        margin: 25px 0px 25px 0px;
+        margin: 10px 0px 20px 0px;
         line-height: 25px;
     }
     .btn-con{
@@ -163,24 +167,26 @@
     }
     .title{
         font-family: 'Merriweather';
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 500;
         color: #FFCF24;
-        width: 70vw;
+        width: 100vw;
         line-height: 40px;
+        padding-top: 20px;
     }
     .title-words{
         color: #ffff;
         font-size: 13px;
         font-weight: 400;
         width: 80vw;
-        margin: 10px 0px 25px 0px;
+        margin: 5px 0px 20px 0px;
         line-height: 23px;
     }
     .btn-con{
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        width: 100vw;
     }
     .btn-left{
         background-color: #FFCF24;
