@@ -48,7 +48,7 @@ export function Footer() {
             grow together. Through shared experiences, kindness, and support, we provide
             opportunities and a sense of belonging for everyone.
           </p>
-          <img className="mt-[52px] w-[98px]" src={IMG.socialLinks} alt="Facebook and LinkedIn" />
+          {/* <img className="mt-[52px] w-[98px]" src={IMG.socialLinks} alt="Facebook and LinkedIn" /> */}
         </div>
         <div>
           <h4 className={HEADING}>Quick Links</h4>
