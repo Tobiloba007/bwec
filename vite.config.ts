@@ -4,7 +4,23 @@ import tailwindcss from "@tailwindcss/vite";
 import fs from "node:fs";
 import path from "node:path";
 
-import siteConfiguration from "./.figma/make/site.json";
+import siteConfiguration from "./.figma/make/site.json" with { type: "json" };
+
+/**
+ * Canonical origin used for absolute URLs in the document head, `robots.txt`
+ * and `sitemap.xml`. Override at build time with `VITE_SITE_URL` once the
+ * production domain is live (e.g. `VITE_SITE_URL=https://bloomingwells.ca pnpm build`).
+ */
+const SITE_URL = (process.env.VITE_SITE_URL || "https://bloomingwells.ca").replace(/\/+$/, "");
+
+/** Routes that exist as real pages, in sitemap order. Mirrors `src/app/router.tsx`. */
+const SITE_ROUTES: Array<{ path: string; priority: string; changefreq: string }> = [
+  { path: "/", priority: "1.0", changefreq: "weekly" },
+  { path: "/about", priority: "0.8", changefreq: "monthly" },
+  { path: "/programs", priority: "0.8", changefreq: "monthly" },
+  { path: "/mentorship", priority: "0.8", changefreq: "monthly" },
+  { path: "/events", priority: "0.7", changefreq: "weekly" },
+];
 
 // Vite config — https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -25,10 +41,11 @@ export default defineConfig(({ mode }) => {
       figmaReactRefreshBoundaryFallback(),
       figmaMakeKitPlugin({ storiesGlob: "/src/**/*.stories.{ts,tsx,js,jsx}" }),
       figmaLinkedPackageSourcemaps(),
+      siteDeployment(SITE_URL, SITE_ROUTES),
     ],
     resolve: {
       alias: {
-        "@": path.resolve(__dirname, "./src"),
+        "@": path.resolve(import.meta.dirname, "./src"),
       },
     },
     server: {
@@ -425,12 +442,14 @@ function figmaMakeKitPlugin(options: { storiesGlob: string | string[] }): Plugin
  * path, such as `libraries/<name>/`.
  */
 function figmaLinkedPackageSourcemaps(): Plugin {
-  const packageJson = JSON.parse(fs.readFileSync(path.resolve(__dirname, "package.json"), "utf8"));
+  const packageJson = JSON.parse(
+    fs.readFileSync(path.resolve(import.meta.dirname, "package.json"), "utf8"),
+  );
   const linkedPackages = Object.keys({
     ...packageJson.dependencies,
     ...packageJson.devDependencies,
   }).flatMap((name) => {
-    const installedDir = path.resolve(__dirname, "node_modules", name);
+    const installedDir = path.resolve(import.meta.dirname, "node_modules", name);
     try {
       const realDir = fs.realpathSync(installedDir);
       return realDir.split(path.sep).includes("node_modules") ? [] : [{ installedDir, realDir }];
@@ -486,6 +505,64 @@ function figmaLinkedPackageSourcemaps(): Plugin {
       });
       delete map.sourceRoot;
       return { code: code.replace(sourceMappingUrl, ""), map };
+    },
+  };
+}
+
+/**
+ * Packaging a static host needs for a production deploy: absolute URLs in the
+ * document head, plus `robots.txt` and `sitemap.xml`. `__SITE_URL__` tokens in
+ * `index.html` are replaced with the configured origin. Preview servers expose
+ * the same two files so a dev build matches production.
+ */
+function siteDeployment(
+  siteUrl: string,
+  routes: Array<{ path: string; priority: string; changefreq: string }>,
+): Plugin {
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${routes
+  .map(
+    ({ path: routePath, priority, changefreq }) => `  <url>
+    <loc>${siteUrl}${routePath}</loc>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>`,
+  )
+  .join("\n")}
+</urlset>
+`;
+  const robots = `User-agent: *\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\n`;
+  // `figmaSiteConfiguration` writes its own no-index robots.txt for preview builds.
+  const siteConfig = siteConfiguration as FigmaSiteConfiguration;
+  const files: Record<string, { body: string; type: string }> = {
+    ...(siteConfig.robots?.index === false
+      ? {}
+      : { "/robots.txt": { body: robots, type: "text/plain; charset=utf-8" } }),
+    "/sitemap.xml": { body: sitemap, type: "application/xml; charset=utf-8" },
+  };
+
+  return {
+    name: "site-deployment",
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const file = files[req.url?.split("?")[0] ?? ""];
+        if (!file) return next();
+
+        res.setHeader("Content-Type", file.type);
+        res.end(file.body);
+      });
+    },
+    generateBundle() {
+      for (const [fileName, file] of Object.entries(files)) {
+        this.emitFile({ type: "asset", fileName: fileName.slice(1), source: file.body });
+      }
+    },
+    transformIndexHtml: {
+      order: "post",
+      handler(html) {
+        return html.replace(/__SITE_URL__/g, siteUrl);
+      },
     },
   };
 }

@@ -1,12 +1,18 @@
 {
-  "name": "figma-make-app",
+  "name": "bloomingwells-centre",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@10.34.3",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "description": "Website for Blooming Wells Centre, a Brampton, Ontario charity creating welcoming spaces where people from all cultures connect, learn, and grow together.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
     "format": "oxfmt"
   },
   "dependencies": {
